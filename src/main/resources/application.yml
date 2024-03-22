@@ -1,0 +1,17 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: LMS
+  datasource:
+    url: jdbc:postgresql://localhost:5432/lms
+    driver-class-name: org.postgresql.Driver
+    username: lmsuser
+    password: lmspassword
+  jpa:
+    show-sql: false
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
