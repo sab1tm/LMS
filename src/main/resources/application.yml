@@ -3,6 +3,7 @@ server:
 app:
   title: LMS
   version: 0.0.1
+  schema-name: lms
 spring:
   application:
     name: LMS
